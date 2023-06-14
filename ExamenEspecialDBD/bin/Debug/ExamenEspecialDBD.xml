@@ -1,0 +1,141 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ExamenEspecialDBD
+</name>
+</assembly>
+<members>
+<member name="T:ExamenEspecialDBD.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:ExamenEspecialDBD.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:ExamenEspecialDBD.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:ExamenEspecialDBD.My.Resources.Resources.Buscar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenEspecialDBD.My.Resources.Resources.Editar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenEspecialDBD.My.Resources.Resources.Eliminar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenEspecialDBD.My.Resources.Resources.Guardar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenEspecialDBD.My.Resources.Resources.Imprimir">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ExamenEspecialDBD.My.Resources.Resources.Nuevo">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:ExamenEspecialDBD.MuseoDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ExamenEspecialDBD.MuseoDataSet.CiudadesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenEspecialDBD.MuseoDataSet.VisitantesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ExamenEspecialDBD.MuseoDataSet.CiudadesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenEspecialDBD.MuseoDataSet.VisitantesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ExamenEspecialDBD.MuseoDataSet.CiudadesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenEspecialDBD.MuseoDataSet.VisitantesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ExamenEspecialDBD.MuseoDataSetTableAdapters.CiudadesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenEspecialDBD.MuseoDataSetTableAdapters.VisitantesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ExamenEspecialDBD.MuseoDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ExamenEspecialDBD.MuseoDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ExamenEspecialDBD.MuseoDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ExamenEspecialDBD.MuseoDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ExamenEspecialDBD.MuseoDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ExamenEspecialDBD.MuseoDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ExamenEspecialDBD.MuseoDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ExamenEspecialDBD.MuseoDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ExamenEspecialDBD.MuseoDataSetTableAdapters.TableAdapterManager.UpdateAll(ExamenEspecialDBD.MuseoDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ExamenEspecialDBD.MuseoDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ExamenEspecialDBD.MuseoDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
